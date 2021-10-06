@@ -1,8 +1,41 @@
+/* Index Media Query*/
+@media only screen and(max-width: 576px) {
+  #bc img {
+    width: 30px;
+  }
+  .cloud-text p {
+    font-size: 14px !important;
+  }
+}
+
+/* Color Pallete */
+
+:root {
+  --primary-color: #1a3954;
+  --scondary-color: #fb7066;
+  --third-color: #ffcbcb;
+  --thrid-shade: #87d7e2;
+  --text-color: #bcbcbc;
+}
+h6 {
+  color: #bcbcbc;
+}
+
+/*  */
+
+.mask {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
 #introCarousel,
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .carousel-item:nth-child(1) {
@@ -31,11 +64,22 @@
 
 /* Height for devices larger than 576px */
 @media (min-width: 992px) {
+  bc h6 {
+    color: white;
+  }
+  .icons {
+    gap: 15px;
+  }
   #introCarousel {
-    margin-top: -58.59px;
+    margin-top: 0px;
+  }
+  .cloud-image img {
+    max-width: 250px;
   }
 }
-
+.cloud-image {
+  align-items: center;
+}
 .navbar .nav-link {
   color: #fff !important;
 }
@@ -45,4 +89,21 @@
 .cloud-image {
   display: flex;
   justify-content: flex-end;
+}
+.cloud-text {
+  text-align: right;
+}
+.cloud-text p {
+  max-width: 672px;
+  float: right;
+  color: var(--text-color);
+  font-size: 21px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.bc {
+  display: flex;
+  justify-content: space-around;
 }
