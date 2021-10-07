@@ -21,8 +21,48 @@ h6 {
   color: #bcbcbc;
 }
 
-/*  */
+.button {
+  border-radius: 30px;
+  background-color: var(--scondary-color) !important;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: "Hind Vadodara", sans-serif;
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .mask {
   display: flex;
   height: 100vh;
@@ -48,7 +88,7 @@ h6 {
 
 .carousel-item:nth-child(2) {
   /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');*/
-  background-color: #fb7066;
+  background-color: #1f1e1e;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -56,7 +96,7 @@ h6 {
 
 .carousel-item:nth-child(3) {
   /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
-  background-color: #ffcbcb;
+  background-color: #000000;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -68,7 +108,7 @@ h6 {
     color: white;
   }
   .icons {
-    gap: 15px;
+    gap: 35px;
   }
   #introCarousel {
     margin-top: 0px;
