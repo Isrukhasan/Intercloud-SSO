@@ -88,7 +88,7 @@ h6 {
 
 .carousel-item:nth-child(2) {
   /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg');*/
-  background-color: #1f1e1e;
+  background-color: #1a3954;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -96,7 +96,28 @@ h6 {
 
 .carousel-item:nth-child(3) {
   /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
-  background-color: #000000;
+  background-color: #1a3954;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(4) {
+  /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
+  background-color: #1a3954;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(5) {
+  /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
+  background-color: #1a3954;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(6) {
+  /*    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');*/
+  background-color: #1a3954;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
