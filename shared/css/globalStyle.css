@@ -12,6 +12,23 @@ h3,
 h4,
 h5,
 h6,
-button {
+button,
+ul,
+li a {
   font-family: "Hind Vadodara", sans-serif;
+}
+:root {
+  --primary-color: #1a3954;
+  --scondary-color: #fb7066;
+  --third-color: #ffcbcb;
+  --thrid-shade: #87d7e2;
+  --text-color: #bcbcbc;
+}
+a {
+  color: white !important;
+}
+
+.navbar-brand img {
+  width: 125px !important;
+  margin-top: -13px;
 }

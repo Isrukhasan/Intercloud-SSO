@@ -217,13 +217,8 @@ sub {
 sup {
   top: -0.5em;
 }
-a {
-  color: #1266f1;
-  text-decoration: underline;
-}
-a:hover {
-  color: #0e52c1;
-}
+
+
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
   color: inherit;
@@ -11172,7 +11167,7 @@ button:focus {
   background-color: #f93154 !important;
 }
 .bg-light {
-  background-color: #fbfbfb !important;
+  background-color: #1a3954 !important;
 }
 .bg-dark {
   background-color: #262626 !important;
